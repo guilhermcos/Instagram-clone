@@ -138,7 +138,7 @@ span {
     gap: 14px;
     align-items: center;
     width: 100%;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .individual-stories {
@@ -219,6 +219,11 @@ span {
 
     .container-side-bar {
         display: none;
+    }
+
+    .container-stories {
+        overflow: scroll;
+        overflow-y: hidden;
     }
     
 }
