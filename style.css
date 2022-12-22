@@ -5,6 +5,11 @@ body{
     font-weight: 300;
 }
 
+video {
+    width: 100%;
+    
+}
+
 .top-bar-mobile {
     background-color: #ffffff;
     width: 100%;
