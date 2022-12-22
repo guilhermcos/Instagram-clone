@@ -108,6 +108,11 @@ video {
     height: max-content;
 }
 
+.icon-save {
+    width: 22px;
+    height: 22px;
+}
+
 .ion-bot {
     width: 22px;
     height: 22px;
@@ -133,16 +138,48 @@ video {
     line-height: 1.0
 }
 
+.legenda {
+    height: 30px;
+}
+
+.legenda p {
+    position: absolute;
+    left: 17px;
+    line-height: 16.41px;
+}
+
+.username-legenda {
+    font-weight: 500;
+}
+
+.text-legenda {
+    font-weight: 400;
+}
+
 span {
     font-weight: 500;
 }
 
 .container-stories {
+    position:relative;
     display: flex;
     gap: 14px;
     align-items: center;
     width: 100%;
     overflow: hidden;
+}
+
+.seta {
+    color: #ffffff;
+    z-index: 10;
+    position: absolute;
+    right: 9px;
+    top: 46px;
+}
+
+.seta ion-icon {
+    width: 30px;
+    height: 30px;
 }
 
 .individual-stories {
@@ -225,9 +262,8 @@ span {
         display: none;
     }
 
-    .container-stories {
-        overflow: scroll;
-        overflow-y: hidden;
+    .seta {
+        display: none;
     }
     
 }
